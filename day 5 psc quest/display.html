@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #navbar{
+            text-align: center;
+            margin-top: 20px;
+        }
+        #add_students{
+            text-align: center;
+            text-decoration: none;
+            background-color:orangered;
+            color: aliceblue;
+            margin: auto;
+            padding: 10px;
+            margin-top: -20px;
+        }
+       #student_data{
+           display: grid;
+           grid-template-columns: repeat(4,1fr);
+           gap:10px;
+           margin-top: 50px;
+           margin-left: 100px;
+           
+           
+       }
+       #student_data .div{
+           width:250px;
+           text-align: center;
+           background-color: blueviolet;
+           border-radius: 5px;
+       }
+       #student_data img{
+           width:60%;
+           height:120px;
+
+       }
+       #student_data button{
+           background-color: red;
+           color:white;
+           border: none;
+           width:100px
+       }
+       button{
+           font-size: 15px;
+           padding: 10px;
+           border-radius: 10px;
+       }
+       h1{
+            margin-top: -5px;
+            margin-bottom: -5px;
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>STUDENT MANAGEMENT SYSTEM</h1>
+
+    <div id="navbar">
+
+        <a href="index.html" id="add_students">Show students</a>
+    </div>
+
+    <div id="student_data">
+
+
+    </div>
+
+
+</body>
+</html>
+
+<script src="./scripts/display.js"></script>

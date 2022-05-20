@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #navbar{
+            text-align: center;
+            margin-top: 40px;
+        }
+       
+        #add_students{
+            text-align: center;
+            text-decoration: none;
+            background-color:orangered;
+            color: aliceblue;
+            margin: auto;
+            padding: 10px;
+           
+          
+             
+        }
+        #student_form{
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+            width:270px;
+            justify-content: center;
+            justify-items: center;
+            margin-top: 30px;
+            border: 2px solid black;
+            padding: 30px
+        ;
+        }
+        #student_form input{
+            margin: 16px;
+            padding: 10px;
+        }
+        #submit{
+            background-color: teal;
+            color: beige;
+            font-size: 16px;
+        }
+        #submit:hover{
+            color: red;
+        }
+        h1{
+            margin-top: -5px;
+            margin-bottom: -5px;
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <h1>STUDENT MANAGEMENT SYSTEM</h1>
+    <div id="navbar">
+
+        <a href="display.html" id="add_students">Add students</a>
+
+    </div>
+
+    <div>
+     
+        <form id="student_form">
+
+            <input type="text" id="name" placeholder="Enter your name" >
+            <input type="text" id="course" placeholder="Enter course">
+    
+            <input type="text" id="unit" placeholder="Enter your unit" >
+            <input type="text" id="image" placeholder="Enter image">
+            <input type="text" id="batch" placeholder="Enter your batch" >
+    
+            <input type="submit" id="submit">
+        </form>
+
+    </div>
+</body>
+</html>
+
+<script src="./scripts/index.js"></script>
